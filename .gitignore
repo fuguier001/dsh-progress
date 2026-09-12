@@ -1,2 +1,4 @@
 *.tgz
 .DS_Store
+CHANGELOG.md
+DRAG-TEMPLATE.md

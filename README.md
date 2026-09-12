@@ -13,7 +13,7 @@
   圆形几何不依赖 border-radius（宿主样式覆盖免疫）；
 - **银灰高亮**：进度 ≥73% 时数字与说明文字变银灰（#C9CBD1/#BFC1C8）；
 - **拖动手感**：按住即跟手 + 提起动效（放大浮起、光晕增亮），抓取环外扩命中区，
-  位置持久化 + 双向钳制永不出屏 —— 完整模式见 [DRAG-TEMPLATE.md](./DRAG-TEMPLATE.md)；
+  位置持久化 + 双向钳制永不出屏；
 - **双击展开**面板查看 CPU / 内存 / 各任务明细。
 
 ## 安装
@@ -29,9 +29,4 @@ ln -s "$(pwd)/dsh-progress" ~/.dsh/profiles/web/node_modules/dsh-progress
 
 依赖 DSH 客户端运行时（`@deepseek-ai/dsh-client-runtime`），随 dsh web 启动自动加载。
 
-## 文档
-
-- [CHANGELOG.md](./CHANGELOG.md) — v5.12→v5.28 优化历程（几何加固/光晕美学/拖动可靠性）
-- [DRAG-TEMPLATE.md](./DRAG-TEMPLATE.md) — 可复用的网页拖动模板（踩坑记录 + 完整代码）
-
-版本 **4.6.26 为锁定基线**。MIT License.
+MIT License.
