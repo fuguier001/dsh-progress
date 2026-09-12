@@ -1,6 +1,6 @@
 {
   "name": "dsh-progress",
-  "version": "4.6.26",
+  "version": "4.7.0",
   "description": "Floating water-ball progress indicator for DSH web GUI: watches heartbeat/dircount/dirsize progress files, renders a draggable glass ball with metric-colored halo, silver-highlight thresholds and grab-lift drag UX (drag pattern documented in DRAG-TEMPLATE.md). Version 4.6.26 is the locked release baseline.",
   "type": "module",
   "main": "lib/index.js",
