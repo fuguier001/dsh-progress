@@ -9,6 +9,9 @@
 - **心跳文件协议**：`<工作区>/.progress/<task-id>.progress.json`，`done/total/heartbeat`
   等字段，超 5 分钟未刷新标 stale（只提示，不劫持配色）；
 - **莫兰迪色带水位**：整球单色随进度换段，颜色平滑过渡；
+- **三层浪面**：深/浅/淡三层大浪按"近深远淡"层序错落（层高差 2/3px），深浪即水体
+  本体（实色、与水位浑然一体零接缝），浪线均值锚定真实水位（±8px 振荡），
+  纯 GPU 合成动画零布局开销；
 - **光晕联动**：环形光晕永远等于当前指标色带色（α .72、5px 羽化、1px 间隙），
   圆形几何不依赖 border-radius（宿主样式覆盖免疫）；
 - **银灰高亮**：进度 ≥73% 时数字与说明文字变银灰（#C9CBD1/#BFC1C8）；
@@ -20,7 +23,7 @@
 
 ```bash
 # 方式一：从 Release 下载 tgz 后接入 dsh web 配置目录（symlink 或 npm i）
-npm i dsh-progress-4.6.26.tgz
+npm i dsh-progress-4.8.5.tgz
 
 # 方式二：本仓库直装
 git clone https://github.com/fuguier001/dsh-progress.git
