@@ -1,0 +1,6 @@
+# 跨项目管线进度板：~/.dsh/progress.watch.json（heartbeat/dircount/dirsize 三种探针）
+# + ~/.dsh/**/.progress/*.progress.json 心跳文件 → composer 上方实时进度条。
+# 手动安装：pnpm add github:fuguier001/dsh-progress 后把本行并进 profile patch 层。
+- insert:
+    - id: progress
+      name: 'dsh-progress'
